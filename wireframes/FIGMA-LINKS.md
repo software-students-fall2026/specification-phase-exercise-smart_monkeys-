@@ -1,0 +1,38 @@
+# Figma screen links
+
+The file is in Abel Ma's team. Start with [the handoff notes](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=2-2), then open any screen below.
+
+These are editable, static wireframes. The clickable prototype connections still need to be added.
+
+- [C01 — Review a chart generated from data](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-37)
+- [C02 — Chart added to the lecture](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-122)
+- [C03 — Edit chart data and labels](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-984)
+- [C04 — Preview chart changes](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1104)
+- [C05 — Updated chart saved](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1779)
+- [C06 — Edit a new chart draft](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1863)
+- [C07 — Correct invalid chart data](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-2119)
+- [C08 — Chart save failed](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=4-2)
+- [E01 — Network error during generation](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-453)
+- [E02 — Equation not recognized](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-515)
+- [E03 — Graph request declined or unsupported](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-579)
+- [E04 — Generation allowance reached](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1225)
+- [E05 — Save failed / original retained](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1285)
+- [I01 — Live lecture / graph request](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-245)
+- [I02 — Generating a graph](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-281)
+- [I03 — Review graph before adding](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-318)
+- [I04 — Graph added to the lecture](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-377)
+- [I05 — Edit equation and graph properties](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=1-2)
+- [I06 — Preview graph changes](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-891)
+- [I07 — Correct invalid graph settings](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1563)
+- [I08 — Updated graph saved](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1661)
+- [I09 — Edit a new graph request](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1717)
+- [I10 — Select a graph on the slide](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-2063)
+- [S01 — View graph in shared lecture](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-682)
+- [S02 — Corrected graph available](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-731)
+- [S03 — Study the corrected graph](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-781)
+- [S04 — Shared graph cannot load](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-829)
+- [S05 — Continue reviewing without graph](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-861)
+- [S06 — Correction not yet available](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1389)
+- [S07 — Student-facing live presentation](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1438)
+- [S08 — View a chart in shared materials](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1489)
+- [S09 — Study a corrected chart](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=3-1988)

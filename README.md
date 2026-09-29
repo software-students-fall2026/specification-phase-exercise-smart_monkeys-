@@ -32,7 +32,31 @@ See instructions. Delete this line and place images of your UML Activity diagram
 
 ## Wireframes
 
-See instructions. Delete this line and place your wireframe diagrams here, covering every new screen and every existing screen your proposal changes, for every type of user.
+These wireframes show how instructors generate, check, and edit graphs and charts during a lecture, and how students view the saved versions in shared materials. There are 32 frames covering the main flow and its different states, including validation errors, failed requests, failed saves, and unavailable corrections.
+
+- [Open the editable Figma file](https://www.figma.com/design/wSWJrmAMIJM4rebIHOglQ4?node-id=2-2)
+- [Start here: scope, main paths, and notes for Matt](wireframes/START-HERE.md)
+- [See all 32 screens with explanations and button paths](wireframes/README-wireframes.md)
+- [Jump to individual screens in Figma](wireframes/FIGMA-LINKS.md)
+
+![Overview of graph preview, graph editing, chart editing, and the student view](wireframes/overview.png)
+
+| Group | Screens | What they cover |
+|---|---|---|
+| Instructor graphs | I01–I10 | Requesting a graph, checking the preview, adding it, selecting it, and editing the saved version |
+| Instructor charts | C01–C08 | Reviewing a chart, editing its data and labels, previewing changes, and handling invalid values or a failed save |
+| Student views | S01–S09 | Viewing saved graphs and charts, opening corrections, and continuing when a visual cannot load |
+| Errors and recovery | E01–E05 | Connection problems, an unrecognized equation, unsupported requests, the usage limit, and graph save failures |
+
+For the main graph flow, follow **I01 → I02 → I03 → I04**. To edit it, continue through **I05 → I06 → I08**. The matching student correction flow is **S01 → S02 → S03**. The chart example follows **C01 → C02 → C03 → C04 → C05**, with **S08/S09** showing the original and corrected student views.
+
+A new graph or chart is only added after **Add to slide**. Changes to an existing one stay as a draft until **Save** succeeds. **Cancel** keeps the original. Each screen's notes explain the alternate paths and the related user stories.
+
+These are static wireframes; Matt is handling the clickable prototype. The exact navigation still needs to be checked against the live app and Matt's original file. The team also needs to agree on how correction availability is detected. Those open points are listed in the handoff notes.
+
+Prepared by **Abel Ma**, using Rayyan's eight SVG references, Rwan's activity diagrams, and Matt's shared prototype video and error screenshot. This contribution expands those references into the screen states and handoff notes shown here. The reference designs remain credited to their authors.
+
+The [PNG previews](wireframes/png/) can be viewed directly in the repository. The [SVG files](wireframes/svg/) are included for editing and importing.
 
 ## Clickable Prototype
 
