@@ -40,7 +40,60 @@ During hands-on testing of The Slide Machine with lectures covering physics, int
 
 ## Prior Art & Originality
 
-See instructions. Delete this line and replace with a short statement of what your team checked (the project's Future Work and Open Questions, its roadmap, and its open issues and pull requests) and which parts of your proposal are original — new work not already specified, scheduled, or proposed by someone else.
+We reviewed The Slide Machine's existing Software Design Document
+(SDD), particularly Section 18 (Future Work) and Section 19
+(Open Questions), along with its delivery roadmap and publicly
+available GitHub issues and pull requests.
+
+The existing application already supports real-time slide
+generation from speech, mathematical content, general slide
+editing, and optional AI-generated imagery. Therefore, these
+existing capabilities are not presented as original
+contributions.
+
+The closest related area identified in the existing
+documentation is the open question concerning the accuracy of
+AI-generated diagrams and infographics. However, this does not
+explicitly specify structured mathematical graph and chart
+generation from spoken equations and numerical data.
+
+Our proposed contribution is to introduce structured graph and
+chart support directly into The Slide Machine's existing live
+lecture workflow.
+
+The proposed functionality includes:
+
+1. Generating mathematically accurate graphs and data charts
+   from instructors' spoken requests rather than relying on
+   approximate or generic images.
+
+2. Providing clearly labelled axes, numerical scales, units,
+   equations, and appropriate graph ranges.
+
+3. Allowing instructors to select and edit generated graphs
+   and charts, including their equations, data values, ranges,
+   labels, and chart types.
+
+4. Updating corrected visuals directly within the lecture
+   slides and preserving the final versions in shared lecture
+   materials for students.
+
+5. Providing appropriate error handling when a request is
+   invalid or graph generation fails, allowing instructors
+   to correct, retry, or cancel the request.
+
+This proposal builds upon The Slide Machine's existing speech
+recognition, slide generation, and editing capabilities rather
+than replacing them.
+
+Our review of the documented Future Work, Open Questions, and
+delivery roadmap did not identify this complete feature set
+as an explicitly specified or scheduled enhancement.
+
+The originality claimed is therefore the proposed structured
+graph and chart workflow and its integration into the existing
+lecture experience, rather than the general concept of
+mathematical plotting or AI-assisted slide generation.
 
 ## Stakeholders
 
