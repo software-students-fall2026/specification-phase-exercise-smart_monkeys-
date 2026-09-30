@@ -4,9 +4,9 @@ A little exercise to get started with the specification phase of the software de
 
 ## Team members
 
-Jialiang Cao https://github.com/jialiangcao
-Rayyan Ahmed https://github.com/RayyanAhmed21
-Abel Ma https://github.com/Abel200595
+Jialiang Cao https://github.com/jialiangcao \
+Rayyan Ahmed https://github.com/RayyanAhmed21 \
+Abel Ma https://github.com/Abel200595 \
 Rwan Z https://github.com/rz3007
 
 ## Review of the Current Application
