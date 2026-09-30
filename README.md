@@ -8,19 +8,176 @@ See instructions. Delete this line and replace with a list of the names of your 
 
 ## Review of the Current Application
 
-See instructions. Delete this line and replace with your team's findings from using the live app at https://theslidemachine.com — at least 10 specific observations, each labeled as a strength, a weakness, or a gap, and drawn from more than one team member's use of the app.
+During hands-on testing of The Slide Machine with lectures covering physics, introductory Python programming, and mathematics, the following strengths, weaknesses, and gaps were observed:
+
+1. **[Strength]** The system accurately generated simple mathematical expressions when they were stated verbally during a lecture.
+
+2. **[Strength]** When the system correctly understood the direction of the lecture, it was sometimes able to generate relevant slides quickly enough to keep pace with the speaker.
+
+3. **[Strength]** Incorrect or unnecessary generated content could be edited or removed, and unnecessary slides could be deleted while the lecture was still in progress.
+
+4. **[Weakness]** Generated images and animations were sometimes inaccurate or did not correctly represent the concept being discussed.
+
+5. **[Weakness]** The system sometimes misinterpreted the context or timing of spoken content. Incidental remarks, transitions, and references to future topics occasionally caused irrelevant or mistimed slides to be generated.
+
+6. **[Weakness]** Slide generation was more predictable when the lecture followed a prepared structure, while natural deviations from that structure were more likely to result in irrelevant or mistimed content.
+
+7. **[Weakness]** The system sometimes repeatedly changed or regenerated the same slide while the lecturer continued speaking, making the live presentation difficult to follow.
+
+8. **[Weakness]** Summary and key-takeaway slides did not consistently summarize only the material covered in the lecture. In some cases, new or future topics were introduced instead.
+
+9. **[Weakness]** Spoken programming content was not handled consistently. Code such as `print("Hello World")` was not reliably represented as code, programming keywords were not clearly distinguished from normal text, and unintended code such as `x = 10` was sometimes generated.
+
+10. **[Weakness]** Live transcription was less reliable when speech was fast or when pronunciation or accent varied, causing the system to fall behind or misunderstand parts of the lecture.
+
+11. **[Weakness]** Some automatically generated exit-ticket questions were inaccurate or did not correctly reflect the material covered during the lecture.
+
+12. **[Gap]** The system could not generate an actual graph when explicitly requested; it instead showed generic images of parabola-like graphs.
+
+13. **[Gap]** Text boxes could not be repositioned to adjust their distance from slide borders, limiting the lecturer's control over slide layout and spacing.
+
+14. **[Gap]** The system did not appear to respond when the lecturer directly addressed it as "Slide Machine" and verbally requested an action during the lecture.
 
 ## Prior Art & Originality
 
-See instructions. Delete this line and replace with a short statement of what your team checked (the project's Future Work and Open Questions, its roadmap, and its open issues and pull requests) and which parts of your proposal are original — new work not already specified, scheduled, or proposed by someone else.
+We reviewed The Slide Machine's existing Software Design Document
+(SDD), particularly Section 18 (Future Work) and Section 19
+(Open Questions), along with its delivery roadmap and publicly
+available GitHub issues and pull requests.
+
+The existing application already supports real-time slide
+generation from speech, mathematical content, general slide
+editing, and optional AI-generated imagery. Therefore, these
+existing capabilities are not presented as original
+contributions.
+
+The closest related area identified in the existing
+documentation is the open question concerning the accuracy of
+AI-generated diagrams and infographics. However, this does not
+explicitly specify structured mathematical graph and chart
+generation from spoken equations and numerical data.
+
+Our proposed contribution is to introduce structured graph and
+chart support directly into The Slide Machine's existing live
+lecture workflow.
+
+The proposed functionality includes:
+
+1. Generating mathematically accurate graphs and data charts
+   from instructors' spoken requests rather than relying on
+   approximate or generic images.
+
+2. Providing clearly labelled axes, numerical scales, units,
+   equations, and appropriate graph ranges.
+
+3. Allowing instructors to select and edit generated graphs
+   and charts, including their equations, data values, ranges,
+   labels, and chart types.
+
+4. Updating corrected visuals directly within the lecture
+   slides and preserving the final versions in shared lecture
+   materials for students.
+
+5. Providing appropriate error handling when a request is
+   invalid or graph generation fails, allowing instructors
+   to correct, retry, or cancel the request.
+
+This proposal builds upon The Slide Machine's existing speech
+recognition, slide generation, and editing capabilities rather
+than replacing them.
+
+Our review of the documented Future Work, Open Questions, and
+delivery roadmap did not identify this complete feature set
+as an explicitly specified or scheduled enhancement.
+
+The originality claimed is therefore the proposed structured
+graph and chart workflow and its integration into the existing
+lecture experience, rather than the general concept of
+mathematical plotting or AI-assisted slide generation.
 
 ## Stakeholders
 
-See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
+We interviewed four stakeholders representing the two primary user types affected by our proposal: two instructors and two students. Partial names/pseudonyms are used in this public repository to protect participant privacy. Full names and contact information will be provided privately to the course administrators as required.
+
+### Instructor Stakeholders
+
+- **Instructor A** — ALevel physics teacher with experience teaching topics that regularly use graphs, including motion, forces, and relationships between physical quantities.
+- **Instructor B** — ALevel mathematics teacher with experience teaching functions, coordinate graphs, transformations, and other visually represented mathematical concepts.
+
+During the interviews, both instructors discussed their current teaching practices and then interacted with The Slide Machine. Particular attention was paid to how the application handled mathematical and scientific content that would normally benefit from a graph or chart.
+
+#### Instructor Goals / Needs
+
+1. **Accurate visual representation of concepts.** Instructors need graphs and charts to represent the same mathematical or scientific relationship they are explaining verbally.
+
+2. **Clear axes, labels, scales, and units.** A generated graph needs enough context for students to understand what each axis and plotted value represents.
+
+3. **Fast generation during a live lecture.** Visuals should appear quickly enough that instructors can continue teaching without interrupting the flow of the lecture.
+
+4. **Ability to correct generated visuals.** Instructors need to be able to modify an equation, data value, range, label, or other graph property when the generated result does not match their intention.
+
+5. **Support for different types of academic visuals.** Instructors may need function graphs, plotted data, line charts, bar charts, and other common visual representations depending on the subject being taught.
+
+6. **Consistency between spoken explanation and displayed material.** Students should see a visual that accurately reflects what the instructor has just explained rather than an approximate or unrelated image.
+
+#### Instructor Problems / Frustrations
+
+1. **Incorrect graphs can mislead students.** A visual that does not accurately represent the equation or data being discussed may create more confusion than showing no graph at all.
+
+2. **Generic images are not a substitute for actual graphs.** When a specific mathematical graph is required, an image that merely resembles the concept does not provide the precision needed for teaching.
+
+3. **Creating or finding graphs during a lecture can interrupt teaching.** Switching to another application or manually preparing a graph can disrupt the flow of a live class.
+
+4. **Lack of editing control reduces trust.** If an automatically generated graph is slightly wrong, instructors need a straightforward way to correct it rather than discard it completely.
+
+5. **Missing labels or inappropriate scales can make otherwise correct visuals difficult to interpret.**
+
+6. **Automatically generated content must remain understandable across different subjects.** A graph-generation feature should not assume that all instructors use the same notation, terminology, or type of data.
+
+### Student Stakeholders
+
+- **Student A** — Student with experience learning mathematics and science topics that involve equations, functions, and graphical representations.
+- **Student B** — Student who regularly uses lecture slides and visual material when reviewing quantitative subjects.
+
+Both students were asked about how they learn from lecture material, particularly when equations, numerical relationships, and graphs are involved. They also interacted with The Slide Machine and considered how automatically generated lecture visuals could affect their understanding.
+
+#### Student Goals / Needs
+
+1. **Visual connection between equations and their meaning.** Students want to see how a mathematical expression or scientific relationship behaves rather than only reading the equation.
+
+2. **Graphs that match the instructor's explanation.** Students need the visual representation to correspond directly to the concept being discussed in class.
+
+3. **Clearly labelled visual information.** Axes, units, values, titles, and other labels help students interpret graphs without guessing what they represent.
+
+4. **Visuals that support later revision.** Students value having the same graphs and charts used during the lecture available in the shared lecture materials so they can review them when studying.
+
+5. **Accurate plots and data.** Students need confidence that the graphs they use for revision are mathematically or scientifically correct.
+
+6. **Simple, readable visuals.** Graphs should communicate the important relationship clearly without unnecessary visual clutter.
+
+#### Student Problems / Frustrations
+
+1. **Equations alone can be difficult to interpret.** A written expression may show the mathematical relationship without making its behaviour immediately understandable.
+
+2. **Incorrect graphs can reinforce misunderstandings.** Students may assume that material shown on a lecture slide is correct and use it later when studying.
+
+3. **Generic images provide little academic value when a precise graph is required.** A picture of a parabola, for example, does not necessarily show the function, scale, coordinates, or transformation being discussed.
+
+4. **Unlabelled or poorly scaled graphs are difficult to interpret without additional explanation.**
+
+5. **When an important visual is missing from the lecture deck, students may have difficulty reconstructing the instructor's explanation later.**
+
+6. **Inconsistent visual representations can make it harder to connect spoken explanations, equations, and lecture notes.**
+
+### Stakeholder Observation Summary
+
+Across both user types, accurate visual representation emerged as an important need for quantitative lecture material. Instructors emphasized the need to present and correct graphs without interrupting the flow of a lecture, while students emphasized the value of visual representations for understanding and later revision.
+
+During use of The Slide Machine, particular attention was given to requests for mathematical or scientific graphs. These observations, together with the stakeholder interviews, motivated further investigation of structured graph and chart support as a possible extension to the application.
 
 ## Product Vision Statement
 
-See instructions. Delete this line and place your Product Vision Statement here — one sentence describing the improvements and new features your team is proposing for The Slide Machine.
+Extend The Slide Machine with structured, editable graph and chart generation that allows instructors to turn spoken equations, data, and quantitative relationships into accurate, clearly labelled visuals during live lectures, while giving students clearer visual representations that remain available in the shared lecture materials for understanding and revision.
 
 ## User Requirements
 
@@ -36,7 +193,7 @@ See instructions. Delete this line and place your wireframe diagrams here, cover
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+https://www.figma.com/design/woA051yMbds4X3MhXzUcOl/Slide-machine-prototype?node-id=1-3&t=fjXkEgpuz1kX3wJP-1
 
 ## Stakeholder Demo
 
