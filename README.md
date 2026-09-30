@@ -140,7 +140,7 @@ See instructions. Delete this line and place your wireframe diagrams here, cover
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+https://www.figma.com/design/woA051yMbds4X3MhXzUcOl/Slide-machine-prototype?node-id=1-3&t=fjXkEgpuz1kX3wJP-1
 
 ## Stakeholder Demo
 
