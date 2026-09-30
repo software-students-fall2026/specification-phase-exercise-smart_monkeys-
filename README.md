@@ -180,12 +180,62 @@ During use of The Slide Machine, particular attention was given to requests for 
 Extend The Slide Machine with structured, editable graph and chart generation that allows instructors to turn spoken equations, data, and quantitative relationships into accurate, clearly labelled visuals during live lectures, while giving students clearer visual representations that remain available in the shared lecture materials for understanding and revision.
 
 ## User Requirements
+### Instructor User Stories
+1. As an instructor, I want The Slide Machine to generate a graph from an equation I say during lecture so that I can visually explain the relationship to my students.   
+2. As an instructor, I want to generate charts from numerical data I describe aloud so that I can represent quantitative information without switching to another application.
+3. As an instructor, I want generated graphs to include clearly labeled axes so that students know what each axis represents.
+4. As an instructor, I want to specify units for graph axes so that the visual accurately represents the scientific or mathematical quantities I am discussing.
+5. As an instructor, I want to adjust the range and scale of a generated graph so that I can focus on the portion that is relevant to my explanation.
+6. As an instructor, I want to edit the equation or data used to generate a graph so that I can correct errors if The Slide Machine misinterprets what I said.
+7. As an instructor, I want to edit graph labels, titles, and units so that I can correct or clarify the generated visual before using it in my lecture.
+8. As an instructor, I want to choose between appropriate graph and chart types so that I can use the visual representation that best fits the material I am teaching.
+9. As an instructor, I want generated graphs and charts to appear quickly during a live lecture so that creating a visual does not interrupt the flow of my teaching.
+10. As an instructor, I want to review and correct a generated graph before relying on it in my lecture so that students are not shown inaccurate information.
+11. As an instructor, I want corrected graphs to remain in the final shared lecture deck so that students can review the accurate version after class.
 
-See instructions. Delete this line and place a list of your User Stories here, grouped by type of user. These should describe functionality that is new or changed, not functionality the app already has.
+### Student User Stories 
+1. As a student, I want to see a graph that corresponds to an equation discussed in class so that I can understand the equation visually.
+2. As a student, I want graphs to match the instructor's spoken explanation so that I can connect what I hear with what I see on the slide.
+3. As a student, I want graph axes to be clearly labeled so that I can understand what each variable represents.
+4. As a student, I want units to be displayed on graphs when appropriate so that I can correctly interpret scientific and mathenatical quantities.
+5. As a student, I want important values and plotted data to be clearly represented so that I can undertsand the relationship being discussed.
+6. As a student, I want graphs and charts to use readable scales so that I can interpret the visual wihtout having to guess what the values mean.
+7. As a student, I want generated graphs to be simple and easy to read so that I can understand them while also following the live lecture.
+8. As a student, I want graphs used during the lecture to remain in the shared lecture materials so that I can review them later while studying.
+9. As a student, I want corrected versions of inaccurate graphs to appear in the shared lecture materials so that I do not study from incorrect information.
+10. As a student, I want equations and their corresponding graphs to appear together in the lecture material so that I can understand the connection between the mathematical expression and its visual behavior.
+11. As a student, I want charts generated from lecture data to accurately represent the values discussed by the instructor so that I can trust the visuals when reviewing the material later.  
 
+      
 ## Activity Diagrams
+### Activity Diagram 1 — Instructor: Generate a Graph from a Spoken Equation
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+**User Story #1:**  
+As an instructor, I want The Slide Machine to generate a graph from an equation I say during lecture so that I can visually explain the relationship to my students.
+
+![User Story 1 Activity Diagram](UserStory1.drawio.png)
+
+### Activity Diagram 2 — Instructor: Edit a Generated Graph
+
+**User Story #7:**  
+As an instructor, I want to edit graph labels, titles, and units so that I can correct or clarify the generated visual before using it in my lecture.
+
+![User Story 7 Activity Diagram](UserStory7.drawio.png)
+
+### Activity Diagram 3 — Student: View a Generated Graph in Shared Lecture Materials
+
+**User Story #8:**  
+As a student, I want graphs used during the lecture to remain in the shared lecture materials so that I can review them later while studying.
+
+![User Story 8 Activity Diagram](UserStory8.drawio.png)
+
+### Activity Diagram 4 — Student: View a Corrected Graph in Shared Lecture Materials
+
+**User Story #9:**  
+As a student, I want corrected versions of inaccurate graphs to appear in the shared lecture materials so that I do not study from incorrect information.
+
+![User Story 9 Activity Diagram](UserStory9.drawio.png)
+
 
 ## Wireframes
 
